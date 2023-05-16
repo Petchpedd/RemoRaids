@@ -27,7 +27,7 @@ jobs:
       - name: Add artifacts to build
         uses: actions/upload-artifact@v2
         with:
-          name: RemoRaids Jar
+          name: RemoRaids1.16.5 Jar
           path: |
             ${{ github.workspace }}/build/libs/*.jar
         # The USERNAME and TOKEN need to correspond to the credentials environment variables used in
